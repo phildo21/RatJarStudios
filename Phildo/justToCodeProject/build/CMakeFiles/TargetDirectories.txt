@@ -1,0 +1,3 @@
+C:/Users/philip.fritz/Documents/RatJarStudios/Phildo/justToCodeProject/build/CMakeFiles/exampleMain.cpp.dir
+C:/Users/philip.fritz/Documents/RatJarStudios/Phildo/justToCodeProject/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/philip.fritz/Documents/RatJarStudios/Phildo/justToCodeProject/build/CMakeFiles/ZERO_CHECK.dir
