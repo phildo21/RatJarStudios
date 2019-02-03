@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\GIT_ROOT\RatJarStudios\Phildo\justToCodeProject\src\exampleMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GIT_ROOT\RatJarStudios\Phildo\cppFiles\example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\GIT_ROOT\RatJarStudios\Phildo\justToCodeProject\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BB5F78C1-5335-3FB0-BAA2-84817709FC95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

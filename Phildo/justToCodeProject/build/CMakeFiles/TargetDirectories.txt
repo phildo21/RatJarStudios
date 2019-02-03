@@ -1,0 +1,3 @@
+C:/GIT_ROOT/RatJarStudios/Phildo/justToCodeProject/build/CMakeFiles/exampleMain.cpp.dir
+C:/GIT_ROOT/RatJarStudios/Phildo/justToCodeProject/build/CMakeFiles/ALL_BUILD.dir
+C:/GIT_ROOT/RatJarStudios/Phildo/justToCodeProject/build/CMakeFiles/ZERO_CHECK.dir
