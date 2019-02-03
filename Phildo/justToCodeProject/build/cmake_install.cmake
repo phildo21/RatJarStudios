@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/philip.fritz/Documents/RatJarStudios/Phildo/justToCodeProject
+# Install script for directory: C:/GIT_ROOT/RatJarStudios/Phildo/justToCodeProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/example.cpp")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/exampleMain.cpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/philip.fritz/Documents/RatJarStudios/Phildo/justToCodeProject/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GIT_ROOT/RatJarStudios/Phildo/justToCodeProject/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
