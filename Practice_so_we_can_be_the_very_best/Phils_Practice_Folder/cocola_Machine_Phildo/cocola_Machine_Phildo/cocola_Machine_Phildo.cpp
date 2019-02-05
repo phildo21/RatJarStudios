@@ -4,11 +4,13 @@
 #include "pch.h"
 #include <iostream>
 #include <map>
-#include <string.h>
+#include <string>
 using namespace std;
 
 
 
+
+void display_Soda(char selection, map<char,string> &sodaMap);
 
 
 
@@ -16,16 +18,14 @@ int main()
 {
     char selection;
     map<char, string> sodaMap = {
-
-        { '1',"Sprite"}
-
-
+    {'1',"Sprite"},
+    {'2',"Coke"},
+    {'3',"Bang"},
+    {'4',"Red Bull"},
+    {'5',"Booze"},
+    {'6',"Coke"}
     };
 
-    for (const auto &p : sodaMap) {
-        cout << p.first <<" secondL " << p.<char*>(second) << endl;
-    }
-    system("pause");
     do {
         system("CLS");
         cout << "\t\t\t PHILDO's beverages" << endl;
@@ -42,17 +42,49 @@ int main()
         switch (selection) {
         case '1':
 
-           // cout << "You Chose: " << sodaMap(selection) << endl;
-                system("pause");
+            display_Soda(selection,sodaMap);
 
             break;
+
+        case '2':
+
+            display_Soda(selection, sodaMap);
+
+            break;
+        case '3':
+
+            display_Soda(selection, sodaMap);
+
+            break;
+        case '4':
+
+            display_Soda(selection, sodaMap);
+
+            break;
+        case '5':
+
+            display_Soda(selection, sodaMap);
+
+            break;
+        case '6':
+
+            system("cls");
+            cout << "Enjoy your Soda!! bitch" << endl;
+            system("pause");
+            break;
+
         }
     } while (selection != '6');
-
-
-
-
 
     return 0;
 }
 
+void display_Soda(char selection, map<char, string> &sodaMap) {
+    system("CLS");
+    auto it = sodaMap.find(selection);
+    if (it != sodaMap.end()) {
+        cout << "You Ordered a " << it->second << "\n" << endl;
+    }
+    system("pause");
+
+}
