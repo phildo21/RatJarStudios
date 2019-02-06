@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\GIT_ROOT\RatJarStudios\Practice_so_we_can_be_the_very_best\Adams_Practice_Folder\cocola_Machine\Adam_Cocola_Project\src\cocola_Machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GIT_ROOT\RatJarStudios\Practice_so_we_can_be_the_very_best\Adams_Practice_Folder\cocola_Machine\cppFiles\cocola_Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\GIT_ROOT\RatJarStudios\Practice_so_we_can_be_the_very_best\Adams_Practice_Folder\cocola_Machine\Adam_Cocola_Project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EDB86840-E305-31FA-927A-6183E29EBE9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
