@@ -10,7 +10,7 @@ struct gameData {
     int userNumber;
     int computerTrys = 0;
     int computerGuess;
-
+    int middleNumber;
 };
 
 gameData randomNumber();

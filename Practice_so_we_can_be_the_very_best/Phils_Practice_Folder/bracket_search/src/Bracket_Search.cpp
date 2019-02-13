@@ -16,10 +16,9 @@ using namespace std;
 
 
 
-
 int main() {
-
     gameData results;
+
     results = randomNumber();
     int selection;
     int upperBound = 100;
@@ -28,6 +27,7 @@ int main() {
     cout << "------------------------Select a game mode------------------------" << endl;
     cout << "1: Player Vs Computer-- You guess the computers 'SECRET' number." << endl;
     cout << "2: Computer Vs Player-- The computer will guess your 'SECRET' number." << endl;
+    cout << "3: Computer Vs Player more EFFICIENT-- -----------------------------." << endl;
 
     cin >> results.gameMode;
 
@@ -74,7 +74,7 @@ int main() {
         cout << "Enter a number for the computer to guess: " << endl;
         cin >> results.userNumber;
 
-        const auto num_iterations = 1000;
+        const auto num_iterations = 10;
 
         std::vector<int> num_tries;
 
@@ -160,8 +160,42 @@ int main() {
 
             std::cout << it->first << "\t\t" << it->second << std::endl;
         }
+
     }
 
+    else if (results.gameMode == 3)
+        {
+        results.computerTrys = 0;
+        cout << "Enter a number for the computer to guess: " << endl;
+        cin >> results.userNumber;
+
+        do {
+
+            results.computerTrys += 1;
+            results.middleNumber = (upperBound - lowerBound) / 2 + lowerBound;
+
+            if (results.middleNumber < results.userNumber)
+            {
+                cout << "Computer guessed to low" << endl;
+                lowerBound = results.middleNumber + 1;
+
+            }
+
+            else if (results.middleNumber > results.userNumber)
+            {
+                cout << "Computer guessed to high" << endl;
+                upperBound = results.middleNumber - 1;
+            }
+
+
+
+            cout << "The computer guessed: " << results.middleNumber << endl;
+
+        } while (results.userNumber != results.middleNumber);
+
+        cout << "\n\nCongrats! the Computer guessed your number in " << results.computerTrys << " trys.\n\n" << endl;
+
+        }
 
 
     system("pause");
@@ -171,3 +205,5 @@ int main() {
 
 	return 0;
 }
+
+
