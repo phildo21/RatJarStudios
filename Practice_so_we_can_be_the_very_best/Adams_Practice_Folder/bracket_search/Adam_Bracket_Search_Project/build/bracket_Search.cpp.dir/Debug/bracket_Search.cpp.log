@@ -1,0 +1,5 @@
+﻿  bracket_Search.cpp
+C:\GIT_ROOT\RatJarStudios\Practice_so_we_can_be_the_very_best\Adams_Practice_Folder\bracket_search\Adam_Bracket_Search_Project\src\bracket_Search.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\GIT_ROOT\RatJarStudios\Practice_so_we_can_be_the_very_best\Adams_Practice_Folder\bracket_search\Adam_Bracket_Search_Project\src\bracket_Search.cpp(78): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\GIT_ROOT\RatJarStudios\Practice_so_we_can_be_the_very_best\Adams_Practice_Folder\bracket_search\Adam_Bracket_Search_Project\src\bracket_Search.cpp(84): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  bracket_Search.cpp.vcxproj -> C:\GIT_ROOT\RatJarStudios\Practice_so_we_can_be_the_very_best\Adams_Practice_Folder\bracket_search\Adam_Bracket_Search_Project\build\Debug\bracket_Search.cpp.exe
