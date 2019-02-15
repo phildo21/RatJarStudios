@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\philip.fritz\Documents\RatJarStudios\Practice_so_we_can_be_the_very_best\Phils_Practice_Folder\pancake_Fatfuck_Phildo\build\CMakeFiles\1a9ccc728c6a72760bc1eb598049be1b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{140B7308-6B0B-331B-A6A7-36237826B376}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
